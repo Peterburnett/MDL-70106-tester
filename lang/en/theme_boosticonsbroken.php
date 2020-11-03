@@ -1,3 +1,4 @@
+<?php
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -14,15 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Backward compatibility file for the old popover.js
+ * Language file.
  *
- * @module     theme_boost/popover
- * @copyright  2020 Bas Brands <bas@moodle.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   theme_boost
+ * @copyright 2016 Frédéric Massart
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-import Popover from './bootstrap/popover';
+defined('MOODLE_INTERNAL') || die();
 
-export {
-    Popover
-};
+$string['pluginname'] = 'Boosticonsbroken';
+$string['choosereadme'] = 'Broken icons';

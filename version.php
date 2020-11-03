@@ -26,4 +26,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2021052500;
 $plugin->requires  = 2021052500;
-$plugin->component = 'theme_boosticons';
+$plugin->component = 'theme_boosticonsbroken';
